@@ -8,7 +8,7 @@ sbt uses a `build.sbt` file to handle the project. This project's `build.sbt` fi
  
 @@snip [build.sbt]($g8root$/build.sbt)
  
-This build file is very simple. In essence, it creates one project `hello-akka-scala` and declares project dependencies. We must also declare what version of sbt to use and this is done in the file `project/build.properties`:
+This build file is very simple. In essence, it creates one project `akka-quickstart-scala` and declares project dependencies. We must also declare what version of sbt to use and this is done in the file `project/build.properties`:
  
 @@snip [build.properties]($g8root$/project/build.properties)
  
